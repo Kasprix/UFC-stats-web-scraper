@@ -31,8 +31,8 @@ for i in fighterURLid:
     print(nameSecondSplit.strip())
 
     # Scraping for the Strikes Landed Per Minute
-    Slpm = htmlText.split("SLpM:")
-    slpmfirstsplit = Slpm[1].split("</i>\n\n          ")[1]
+    slpm = htmlText.split("SLpM:")
+    slpmfirstsplit = slpm[1].split("</i>\n\n          ")[1]
     slpmSecondSplit = slpmfirstsplit.split("\n\n")[0]
     slpmSecondSplit.strip()
     print(slpmSecondSplit.strip())
