@@ -10,3 +10,7 @@ UniqueIDS -
 
 Example list of fighter ID's required to be added on to the ufc stat URL to reach the relevent fighters stat page.
 
+
+UFCscraper.py - 
+
+This script goes into each individual fighters stat and fight history page and gathers their key statistics and adds them to a CSV file.
